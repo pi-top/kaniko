@@ -17,8 +17,6 @@ limitations under the License.
 package util
 
 import (
-	"archive/tar"
-	"bytes"
 	"compress/gzip"
 	"fmt"
 	"io"
@@ -26,7 +24,6 @@ import (
 	"os"
 	"path/filepath"
 	"testing"
-	"time"
 
 	"github.com/GoogleContainerTools/kaniko/testutil"
 )
